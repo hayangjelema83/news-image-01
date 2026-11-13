@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 
 // Select the candidate image: 1, 2 or 3.
 // Default 1 (front-page collage) — the strongest candidate.
-const CANDIDATE = 3;
+const CANDIDATE = 2;
 
 if (!Number.isInteger(CANDIDATE) || CANDIDATE < 1 || CANDIDATE > 3) {
   throw new Error(`CANDIDATE must be 1, 2 or 3, got: ${CANDIDATE}`);
